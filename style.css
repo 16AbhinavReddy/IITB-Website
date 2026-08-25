@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:'Poppins', sans-serif;
+    background: white;
+    color: dimgray;
+    line-height: 1.6;
+}
+
+
+.sidebar{
+    width: 320px;
+    height: 1080px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: grey;
+    color: white;
+    padding: 40px 25px;
+    text-align: center;
+}
+.iitb-logo{
+    width: 120px;
+    margin: 0 auto 30px;
+}
+.abhinav-photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    border: 3px solid lightyellow;
+}
+.sidebar h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.sidebar p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+}
+.social-media{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+.social-media a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+
+nav{
+    position: sticky;
+    top: 0;
+    background: grey;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 40px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+
+.all-info{
+    margin-left: 320px;
+    height: 1080px;
+    overflow-y: auto;
+}
+section{
+    padding: 25px 40px;
+    max-width: 900px;
+    scroll-margin-top: 90px;
+}
+
+section h1{
+    color: grey;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+hr{
+    border: none;
+    border-top: 2px solid white;
+    margin-bottom: 15px;
+}
+
+.edc-and-exp-info{
+    margin-bottom: 15px;
+}
+
+.edc-and-exp-info h3{
+    color: grey;
+    font-size:20px;
+}
+
+.edc-and-exp-info h4{
+    color:  grey;
+    font-weight: 500;
+    margin: 4px 0;
+}
+
+.edc-and-exp-info span{
+    color:  grey;
+    font-size: 14px;
+}
+
+.edc-and-exp-info p{
+    margin-top: 10px;
+}
+
+.edc-and-exp-info ul{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.edc-and-exp-info li{
+    margin-bottom: 8px;
+}
+
+section ul{
+    margin-left: 20px;
+}
+
+section li{
+    margin-bottom: 10px;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+footer{
+    text-align: center;
+    padding: 40px;
+    color:  grey;
+    border-top: 1px solid;
+    margin-top: 30px;
+}
